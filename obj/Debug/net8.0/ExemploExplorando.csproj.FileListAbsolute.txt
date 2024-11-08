@@ -12,3 +12,4 @@ C:\Users\murilo.galassi.SEESP\Documents\Meu\ExemploExplorando\obj\Debug\net8.0\r
 C:\Users\murilo.galassi.SEESP\Documents\Meu\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.pdb
 C:\Users\murilo.galassi.SEESP\Documents\Meu\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
 C:\Users\murilo.galassi.SEESP\Documents\Meu\ExemploExplorando\obj\Debug\net8.0\ref\ExemploExplorando.dll
+C:\Users\murilo.galassi.SEESP\Documents\Meu\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.sourcelink.json
