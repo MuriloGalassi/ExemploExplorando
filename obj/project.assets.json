@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\murilo.galassi.SEESP\\Documents\\Meu\\ExemploExplorando\\ExemploExplorando.csproj",
+      "projectUniqueName": "C:\\Users\\murilo.galassi.SEESP\\Documents\\Estudo.Documentos\\ExemploExplorando\\ExemploExplorando.csproj",
       "projectName": "ExemploExplorando",
-      "projectPath": "C:\\Users\\murilo.galassi.SEESP\\Documents\\Meu\\ExemploExplorando\\ExemploExplorando.csproj",
+      "projectPath": "C:\\Users\\murilo.galassi.SEESP\\Documents\\Estudo.Documentos\\ExemploExplorando\\ExemploExplorando.csproj",
       "packagesPath": "C:\\Users\\murilo.galassi.SEESP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\murilo.galassi.SEESP\\Documents\\Meu\\ExemploExplorando\\obj\\",
+      "outputPath": "C:\\Users\\murilo.galassi.SEESP\\Documents\\Estudo.Documentos\\ExemploExplorando\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\murilo.galassi.SEESP\\AppData\\Roaming\\NuGet\\NuGet.Config"
