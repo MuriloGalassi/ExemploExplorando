@@ -1,0 +1,14 @@
+Alterações e Explicações:
+
+Fórmula do Volume da Esfera:
+
+Adicionei o cálculo (4.0 / 3.0) * pi * Math.Pow(raio, 3). Usei 4.0 / 3.0 para garantir precisão com números de ponto flutuante.
+Método Math.Pow:
+
+Substituí ( ) pelo método Math.Pow(raio, 3), que eleva o raio ao cubo.
+Exibição do Resultado:
+
+Adicionei o formato :F3 em Console.WriteLine para garantir que o resultado seja exibido com três casas decimais, como é padrão em problemas de volume de esferas.
+Formatação Geral:
+
+Garantia de boa leitura do código, com indentação adequada e remoção de espaços desnecessários.

@@ -1,15 +1,87 @@
 ﻿using ExemploExplorando.Models;
 
-Pessoa p1 = new Pessoa(nome: "Murilo", sobrenome:"Galassi");
-Pessoa p2 = new Pessoa(nome: "Leonardo", sobrenome:"Masarolli");
 
-Curso cursoDeIngles = new Curso();
-cursoDeIngles.Nome = "Ingles";
-cursoDeIngles.Alunos = new List<Pessoa>();
 
-cursoDeIngles.AdicionarAluno(p1);
-cursoDeIngles.AdicionarAluno(p2);
-cursoDeIngles.ListarAlunos();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// decimal valorMonetario = 1582.40M;
+
+// Console.WriteLine($"{valorMonetario:C}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string numero1 = "10";
+// int numero2 = 20;
+
+// string resultado = numero1 + numero2;
+
+// Console.WriteLine(resultado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa(nome: "Murilo", sobrenome:"Galassi");
+// Pessoa p2 = new Pessoa(nome: "Leonardo", sobrenome:"Masarolli");
+
+// Curso cursoDeIngles = new Curso();
+// cursoDeIngles.Nome = "Ingles";
+// cursoDeIngles.Alunos = new List<Pessoa>();
+
+// cursoDeIngles.AdicionarAluno(p1);
+// cursoDeIngles.AdicionarAluno(p2);
+// cursoDeIngles.ListarAlunos();
 
 
 
