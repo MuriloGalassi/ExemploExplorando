@@ -1,0 +1,7 @@
+Alterações e Explicações:
+
+Fórmula do Volume da Esfera:
+
+Adicionei o cálculo (4.0 / 3.0) * pi * Math.Pow(raio, 3). Usei 4.0 / 3.0 para garantir precisão com números de ponto flutuante.
+Método Math.Pow:
+
