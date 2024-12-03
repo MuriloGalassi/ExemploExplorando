@@ -1,23 +1,163 @@
 ﻿using System.Reflection;
+using System.Security.Cryptography;
 using ExemploExplorando.Models;
+using Newtonsoft.Json;
 
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
-LeituraArquivo arquivo = new LeituraArquivo();
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
 
-var (sucesso, linhasArquivos, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
-
-if (sucesso)
+foreach (Venda venda in listaVenda)
 {
-    Console.WriteLine("Quantidade de linha: " + quantidadeLinhas);
-    foreach (string linha in linhasArquivos)
-    {
-        Console.WriteLine(linha);
-    }
+    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, " +
+                      $"Preço: {venda.Preco} Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
 }
-else
-{
-    Console.WriteLine("Não foi possivel ler o arquivo");
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//DateTime dataAtual = DateTime.Now;
+
+//List<Venda> listaVendas = new List<Venda>();
+
+//Venda v1 = new Venda(1, "Material de escritorio", 25.00M, dataAtual);
+//Venda v2 = new Venda(2, "Licença de Software", 125.00M, dataAtual);
+
+//listaVendas.Add(v1);
+//listaVendas.Add(v2);
+
+//string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+//File.WriteAllText("Arquivos/vendas.json", serializado);
+
+//Console.WriteLine(serializado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//int numero = 10;
+//bool ehPar = false;
+
+//If Ternario
+//ehPar = numero % 2 == 0;
+//Console.WriteLine($"O numero {numero} é " + (ehPar ? "par" : "impar"));
+
+
+
+
+
+//if (numero % 2 == 0)
+//{
+//    Console.WriteLine($"O numero {numero} é par");
+//}
+//else
+//{
+//    Console.WriteLine($"O numero {numero} é inpar");
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Pessoa p1 = new Pessoa("Murilo", "Galassi");
+
+//(string nome, string sobrenome) = p1;
+
+
+//Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//LeituraArquivo arquivo = new LeituraArquivo();
+
+//var (sucesso, linhasArquivos, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+//if (sucesso)
+//{
+//    Console.WriteLine("Quantidade de linha: " + quantidadeLinhas);
+//    foreach (string linha in linhasArquivos)
+//    {
+//        Console.WriteLine(linha);
+//    }
+//}
+//else
+//{
+//    Console.WriteLine("Não foi possivel ler o arquivo");
+//}
 
 
 
