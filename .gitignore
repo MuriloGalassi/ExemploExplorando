@@ -1,5 +1,25 @@
-.vs/
-
+# Ignorar pastas bin e obj
 bin/
-
 obj/
+
+# Ignorar arquivos gerados pelo Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignorar arquivos de log e backups
+*.log
+*.bak
+*.swp
+*.tmp
+
+# Ignorar pacotes gerenciados pelo NuGet
+*.nupkg
+packages/
+
+# Ignorar configurações específicas de ambiente
+.DS_Store
+Thumbs.db
